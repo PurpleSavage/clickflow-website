@@ -1,23 +1,28 @@
 'use client'
 import { Link } from "react-scroll"
 import style from '../css/header.module.css'
+
+
+
 export default function NavHeader() {
   return (
     <div className="flex items-center py-3 border-b border-slate-600/50 fixed top-0 w-full px-8">
-        <span className="text-lg font-bold">ClickFlow</span>
+        <span className="text-lg   font-bold">
+            ClickFlow
+        </span>
         <nav className="grow  flex items-center justify-center">
             <ul className={`flex w-full md:w-1/3  justify-between items-center ${style.card} py-2 px-4`}>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="services" smooth={false} duration={800} >Servicios</Link>
+                    <Link to="testimonials" smooth={false} duration={800}>Nosotros</Link>
                 </li>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="guide" smooth={false} duration={800}>Guía</Link>
+                    <Link to="services" smooth={false} duration={800} >Landings</Link>
                 </li>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="tech" smooth={false} duration={800}>Tecnología</Link>
+                    <Link to="guide" smooth={false} duration={800}>Software</Link>
                 </li>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="testimonials" smooth={false} duration={800}>Clientes</Link>
+                    <Link to="tech" smooth={false} duration={800}>Mobile</Link>
                 </li>
             </ul>
         </nav>
