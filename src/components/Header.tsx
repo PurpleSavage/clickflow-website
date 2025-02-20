@@ -30,8 +30,8 @@ export default function Header() {
                     className="text-5xl  text-white font-bold"
                 />
             </div>
-            <div className='relative  w-1/2  h-1/2'>
-                <div className={`${style.cardWrapper } absolute -bottom-16  -left-60 w-[500px] h-[400px] rounded-t-lg p-2`}  >
+            <div className={`relative  w-1/2  h-1/2 `}>
+                <div className={`${style.cardWrapper }  absolute -bottom-16  -left-60 w-[500px] h-[400px] rounded-t-lg p-2`}  >
                     <div className={`${style.card} h-full w-full flex items-center`}>
                         <div className='h-full py-4 space-y-4 px-2 text-white border-r border-slate-600/50'>
                             <p className='flex font-bold items-center gap-2 text-sm text-purple-800'><RiLightbulbFlashLine size={10}/>Innovaci&oacute;n</p>

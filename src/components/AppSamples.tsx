@@ -1,16 +1,16 @@
-import { landingList } from "@/data/landingList"
+import { appList } from "@/data/appList"
 import Image from "next/image"
-export default function LandingSamples() {
+export default function AppSamples() {
   return (
     <section className="h-screen space-y-10">
       <div className="w-5/6 mx-auto space-y-2">
-        <h3 className='font-bold text-4xl text-white'>Web Sites</h3>
+        <h3 className='font-bold text-4xl text-white'>Apps</h3>
         <p className='font-bold text-xl text-slate-400'
-        >Estas son algunas muestras de nuestros productos para empresas que buscan algo moderno y atractivo</p>
+        >Estas son algunas muestras de nuestras apps desarrolladas para empresas que buscan algo moderno y atractivo</p>
       </div>
       <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-4 w-5/6 mx-auto">
         {
-          landingList.map(landing=>(
+          appList.map(landing=>(
             <div key={landing.id} className="h-[300px]  rounded-md border border-slate-700/50 flex flex-col cursor-pointer" >
               <div className="w-full h-[280px] overflow-hidden ">
                   <Image

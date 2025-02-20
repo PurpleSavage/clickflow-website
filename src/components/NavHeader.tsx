@@ -6,7 +6,7 @@ import style from '../css/header.module.css'
 
 export default function NavHeader() {
   return (
-    <div className="flex items-center py-3 border-b border-slate-600/50 fixed top-0 w-full px-8">
+    <div className="flex  z-50 items-center py-3 border-b border-slate-600/50  w-full px-8">
         <span className="text-lg   font-bold">
             ClickFlow
         </span>

@@ -3,8 +3,8 @@ import Image from 'next/image'
 export default function Reasons() {
   return (
     <section className='h-screen space-y-10'>
-      <h2 className='font-bold text-4xl w-3/4 mx-auto'>¿Por qué Nostros?</h2>
-      <div className={`${style.parent} mx-auto w-3/4`}>
+      <h2 className='font-bold text-4xl w-5/6 mx-auto'>¿Por qué Nostros?</h2>
+      <div className={`${style.parent} mx-auto w-5/6`}>
         <div className={`${style.div6} space-y-2  overflow-hidden rounded-lg p-3 border border-slate-600/50`}>
           <div className='relative'>
             <Image
