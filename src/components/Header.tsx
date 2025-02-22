@@ -27,7 +27,7 @@ export default function Header() {
                     delay={150}
                     animateBy="words"
                     direction="top"
-                    className="text-5xl  text-white font-bold"
+                    className="text-3xl md:text-5xl  text-white font-bold"
                 />
             </div>
             <div className={`relative  w-1/2  h-1/2 `}>

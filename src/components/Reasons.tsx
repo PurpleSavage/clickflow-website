@@ -2,8 +2,8 @@ import style from '../css/reasons.module.css'
 import Image from 'next/image'
 export default function Reasons() {
   return (
-    <section className='h-screen space-y-10'>
-      <h2 className='font-bold text-4xl w-5/6 mx-auto'>¿Por qué Nostros?</h2>
+    <section className='md:h-screen space-y-10' id='reasons'>
+      <h2 className='font-bold text-4xl text-center md:text-start md:w-5/6 md:mx-auto'>¿Por qué Nostros?</h2>
       <div className={`${style.parent} mx-auto w-5/6`}>
         <div className={`${style.div6} space-y-2  overflow-hidden rounded-lg p-3 border border-slate-600/50`}>
           <div className='relative'>

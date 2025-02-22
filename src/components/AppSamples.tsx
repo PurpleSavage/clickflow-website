@@ -2,7 +2,7 @@ import { appList } from "@/data/appList"
 import Image from "next/image"
 export default function AppSamples() {
   return (
-    <section className="h-screen space-y-10">
+    <section className="md:h-screen space-y-10" id="appsamples">
       <div className="w-5/6 mx-auto space-y-2">
         <h3 className='font-bold text-4xl text-white'>Apps</h3>
         <p className='font-bold text-xl text-slate-400'

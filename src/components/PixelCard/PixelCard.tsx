@@ -3,8 +3,8 @@
 	Installed from https://reactbits.dev/ts/tailwind/
 	17-2-2025
 */
-
-import {useEffect, useRef} from "react";
+'use client'  
+import {JSX, useEffect, useRef} from "react";
 
 
 class Pixel {
@@ -190,6 +190,7 @@ export default function PixelCard({
     const animationRef = useRef<any>(null);
     const timePreviousRef = useRef(performance.now());
     const reducedMotion = useRef(
+        typeof window !== "undefined" &&
         window.matchMedia("(prefers-reduced-motion: reduce)").matches
     ).current;
 

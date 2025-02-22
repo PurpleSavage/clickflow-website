@@ -2,7 +2,7 @@ import { landingList } from "@/data/landingList"
 import Image from "next/image"
 export default function LandingSamples() {
   return (
-    <section className="h-screen space-y-10">
+    <section className="md:h-screen space-y-10" id="landingsamples">
       <div className="w-5/6 mx-auto space-y-2">
         <h3 className='font-bold text-4xl text-white'>Web Sites</h3>
         <p className='font-bold text-xl text-slate-400'

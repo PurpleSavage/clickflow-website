@@ -13,16 +13,19 @@ export default function NavHeader() {
         <nav className="grow  flex items-center justify-center">
             <ul className={`flex w-full md:w-1/3  justify-between items-center ${style.card} py-2 px-4`}>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="testimonials" smooth={false} duration={800}>Nosotros</Link>
+                    <Link to="reasons" smooth={true} duration={800}>Nosotros</Link>
                 </li>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="services" smooth={false} duration={800} >Landings</Link>
+                    <Link to="impact" smooth={true} duration={800} >Impacto</Link>
                 </li>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="guide" smooth={false} duration={800}>Software</Link>
+                    <Link to="landingsamples" smooth={true} duration={800}>Web sites</Link>
                 </li>
                 <li className='cursor-pointer hover:text-slate-400 transition-colors'>
-                    <Link to="tech" smooth={false} duration={800}>Mobile</Link>
+                    <Link to="appsamples" smooth={true} duration={800}>Apps</Link>
+                </li>
+                <li className='cursor-pointer hover:text-slate-400 transition-colors'>
+                    <Link to="try" smooth={true} duration={800}>Contacto</Link>
                 </li>
             </ul>
         </nav>

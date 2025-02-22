@@ -3,7 +3,7 @@ import PixelCard from "./PixelCard/PixelCard"
 
 export default function TryServices() {
   return (
-    <section className="space-y-10">
+    <section className="space-y-10" id="try">
         <div className="w-5/6 mx-auto space-y-2">
             <h3 className='font-bold text-4xl text-white'>Inténtalo y súmate a nuestros clientes!</h3>
             <p className='font-bold text-xl text-slate-400'
